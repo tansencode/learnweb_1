@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        /*去除所有元素默认的padding和margin*/
+        *{padding:0;margin:0}
+        /*去除列表项默认符号*/
+        ul{list-style-type:none;}
+    </style>
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+<script type=text/javascript>
+
+$(function(){
+$("span+span").css("border-left","2px solid black","padding-left","8px");
+//$("li+li").css("padding-left","8px");
+})
+</script>
+</head>
+<body>
+<div id="block">
+
+<span>关于我们</span>
+<span>关于我们</span>
+<span>关于我们</span>
+<span>关于我们</span>
+
+</div>
+</body>
+</html>

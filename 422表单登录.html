@@ -1,0 +1,35 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>表单分组</title>
+<style type="text/css">
+body,td,th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+</style>
+</head>
+
+<body>
+    <h1>用户注册表单分组</h1>
+    <form action="action.asp" name="register" id="login">
+       <fieldset>
+       <legend>基本信息（必填）</legend>
+       <ul>
+          <li>
+              <label for="username">用户名</label>
+              <input type="text" id="username" name="username"/>
+              <span>注册用户长度限制为3-12字节</span>
+          </li>
+          <li>
+              <label for="pow">论坛密码</label>
+              <input type="password" id="psw" name="psw"/>
+          </li>
+          
+       </ul>
+     </fieldset>
+     <p><input name="" type="submit" value="提交"/></p>
+</form>
+</body>
+</html>

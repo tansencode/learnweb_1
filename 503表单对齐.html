@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册表单</title>
+    <style type="text/css">
+	  form
+	    {
+			width:320px;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:14px;
+			font-weight:bold;
+		}
+		p{overflow:hidden;}
+		label
+		{
+			float:left;
+			width:60px;
+			height:40px;
+			line-height:40px;
+			text-align:right;
+			margin-right:10px;
+		}
+		input:not(#submit)
+		{
+			float:left;
+			height:16px;
+			padding:10px;
+			border:1px solid silver;
+		}
+		#tel,#pwd
+		{
+			width:228px;
+		}
+		#verifycode
+		{
+			width:118px;
+			margin-right:10px;
+		}
+		#submit
+		{
+			width:100px;
+			height:40px;
+			border:1px solid gray;
+			padding:0;
+			background-color:#F1F1F1;
+		}
+		</style>
+</head>
+
+<body>
+   <form action="index.html">
+     <p>
+       <label for="tel">手机号</label>
+       <input id="tel" type="text"/>
+     </p>
+     <p>
+        <label for="pwd">密码</label>
+        <input id="pwd" type="password"/>
+      </p>
+      <p>
+         <label for="verifyCode">验证码</label>
+         <input id="verifycode" type="text"/>
+         <input id="sbmit" type="submit"/>
+       </p>
+     </form>
+</body>
+</html>
